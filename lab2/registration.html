@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+</head>
+
+<body >
+
+<h2 align="center">Registration Form</h2>
+
+<form action="Thankyou.html" method="get" enctype="multipart/form-data">
+
+    <p>First Name  <br>
+        <input type="text" name="firstname" required>
+    </p>
+    <p>Last Name  <br>
+        <input type="text" name="lastname" required>
+    </p>
+    <p>Email <br>
+        <input type="email" name="email" required>
+    </p>
+    <p>Password <br>
+        <input type="password" name="password">
+    </p>
+    <p> Repeat Password <br>
+        <input type="password" name="repassword">
+    </p>
+    <p> birth date <br>
+        <input type="date" name="birth">
+    </p>
+    <p>user picture <br> 
+        <input type="file" name="photo"> </p>
+
+    <fieldset>
+        <legend>gender</legend>
+        <input type="radio" name="gender" value="male"> male <br>
+        <input type="radio" name="gender" value="female"> female
+    </fieldset>
+
+    <p>
+        faculty <br>
+        <select name="faculty">
+            <option>Computer Science</option>
+            <option>Engineering</option>
+            <option>Commerce</option>
+            <option>Arts</option>
+        </select>
+    </p>
+
+    <fieldset>
+        <legend>Interests</legend>
+        <input type="checkbox" name="interest" value="programming"> programming <br>
+        <input type="checkbox" name="interest" value="reading"> reading <br>
+        <input type="checkbox" name="interest" value="swimming"> swimming
+    </fieldset>
+
+    <p>
+        About You <br>
+        <textarea name="about" rows="4" cols="40"></textarea>
+    </p>
+    <p>
+        <input type="checkbox" required>
+        I agreed to terms and conditions
+    </p>
+    <p>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </p>
+
+</form>
+
+</body>
+</html>
